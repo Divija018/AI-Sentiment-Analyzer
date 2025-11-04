@@ -1,4 +1,4 @@
-# Ignore virtual environment and cache files
+# Ignore virtual environment and unnecessary files
 venv/
 __pycache__/
 *.pyc
