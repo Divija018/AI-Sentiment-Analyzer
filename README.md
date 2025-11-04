@@ -1,18 +1,20 @@
 # 🤖 AI Sentiment Analyzer
 
-An **AI-powered Streamlit web app** that performs sentiment analysis on text using **Hugging Face Transformers**.  
-It allows single text input or batch file analysis with detailed analytics and visualizations.
+An **AI-powered Streamlit web app** that performs real-time sentiment analysis using **Hugging Face Transformers**.  
+It can analyze single sentences or entire datasets with beautiful interactive visualizations and export options.
+
+🔗 **Live Demo:** [https://ai-sentiment-analyzer-3thcnk4vqp3xct8x6sf8gb.streamlit.app](https://ai-sentiment-analyzer-3thcnk4vqp3xct8x6sf8gb.streamlit.app)
 
 ---
 
 ## 🚀 Features
 
-- 📝 **Single Text Analysis** — Enter any text and instantly see its sentiment (Positive / Negative / Neutral).  
-- 📂 **Batch File Analysis** — Upload `.csv` or `.txt` files for bulk sentiment prediction.  
-- 📊 **Interactive Visualizations** — View sentiment distribution, confidence scores, and word frequency plots using Plotly.  
-- ⌨️ **Emoji & Virtual Keyboard** — Type or choose emojis for emotional testing.  
-- 💾 **Export Results** — Download your analyzed data as CSV or Excel files.  
-- 🧠 **Model Options** — Choose between DistilBERT and RoBERTa from Hugging Face.
+- 📝 **Single Text Analysis** — Type or paste text and instantly get its sentiment.  
+- 📂 **Batch File Upload** — Analyze large `.csv` or `.txt` files containing text data.  
+- 📊 **Interactive Visualizations** — Sentiment distribution, confidence scores, and word frequency charts.  
+- ⌨️ **Emoji & Virtual Keyboard** — Input emotions easily with a built-in emoji keyboard.  
+- 💾 **Download Results** — Export your analysis as CSV or Excel.  
+- 🧠 **Model Options** — Switch between DistilBERT and RoBERTa transformer models.  
 
 ---
 
@@ -20,12 +22,13 @@ It allows single text input or batch file analysis with detailed analytics and v
 
 | Tool | Purpose |
 |------|----------|
-| **Python** | Programming language |
+| **Python** | Core programming language |
 | **Streamlit** | Web app framework |
-| **Transformers (Hugging Face)** | Pre-trained sentiment analysis models |
-| **Plotly** | Data visualization |
-| **Pandas / NumPy** | Data handling and analysis |
-| **scikit-learn** | Model training utilities |
+| **Transformers (Hugging Face)** | Pre-trained AI models |
+| **Plotly** | Interactive data visualizations |
+| **Pandas / NumPy** | Data processing |
+| **scikit-learn** | Model utilities |
+| **OpenPyXL** | Excel export support |
 
 ---
 
